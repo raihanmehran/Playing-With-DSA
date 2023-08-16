@@ -1,8 +1,21 @@
+import LinkedList.LinkedList;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        // Exercise 1
+        // LinkedList Constructor
+        LinkedList myLinkedList = new LinkedList(4);
+
+        myLinkedList.printAll();
+        /*
+            EXPECTED OUTPUT:
+            ----------------
+            Head: 4
+            Tail: 4
+            Length: 1
+
+            Linked List:
+            4
+
+        */
     }
 }
