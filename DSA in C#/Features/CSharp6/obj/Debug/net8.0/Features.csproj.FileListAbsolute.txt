@@ -1,0 +1,15 @@
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\bin\Debug\net8.0\Features.exe
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\bin\Debug\net8.0\Features.deps.json
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\bin\Debug\net8.0\Features.runtimeconfig.json
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\bin\Debug\net8.0\Features.dll
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\bin\Debug\net8.0\Features.pdb
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.AssemblyInfoInputs.cache
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.AssemblyInfo.cs
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.csproj.CoreCompileInputs.cache
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.sourcelink.json
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.dll
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\refint\Features.dll
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.pdb
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\Features.genruntimeconfig.cache
+C:\Users\Razer\IdeaProjects\Playing-With-Java-DSA\DSA in C#\Features\CSharp6\obj\Debug\net8.0\ref\Features.dll
