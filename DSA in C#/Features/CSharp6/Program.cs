@@ -33,8 +33,9 @@ class Program
         // WorkingWithArrayList();
         // WorkingWithHashtable();
         // WorkingWithGenericList();
-
-        WorkingWithGenerics();
+        // WorkingWithGenerics();
+        // WorkingWithDictionary();
+        WorkingWithClassTypeList();
     }
 
     static void PrintArrayList(ArrayList arrayList)
@@ -136,4 +137,48 @@ class Program
         generics1.Add(a: 10, b: 20);
         generics1.Sub(a: 20, b: 12);
     }
+
+    static void WorkingWithDictionary()
+    {
+        // Hashtable vs Dictionary:
+        // Dictionary stores the items in sequence while hashtable doesn't
+        // In dictionary we have more freedom because we can choose Key type and also Value type.
+
+        Dictionary<string, object> dt = new Dictionary<string, object>();
+        dt.Add("Eid", 1010);
+        dt.Add("Ename", "Scott");
+        dt.Add("Job", "Manager");
+        dt.Add("Salary", 25000.00);
+
+        foreach (var key in dt.Keys) Console.WriteLine($"{key} : {dt[key]}");
+        Console.WriteLine();
+
+        var result = dt.TryAdd("hello", "world");
+
+        foreach (var key in dt.Keys) Console.WriteLine($"{key} : {dt[key]}");
+        Console.WriteLine();
+
+        dt.Remove("hello");
+
+        foreach (var key in dt.Keys) Console.WriteLine($"{key} : {dt[key]}");
+        Console.WriteLine();
+    }
+
+    static void WorkingWithClassTypeList()
+    {
+        Customer c1 = new Customer { Id = 1, Name = "Scott", Balance = 564654.00 };
+        Customer c2 = new Customer { Id = 2, Name = "Nick", Balance = 623654.00 };
+        Customer c3 = new Customer { Id = 3, Name = "Raju", Balance = 46234554.00 };
+
+        List<Customer> customers = new List<Customer>();
+        customers.Add(c1);
+        customers.Add(c2);
+        customers.Add(c3);
+
+        foreach (Customer c in customers)
+        {
+            System.Console.WriteLine($"ID: {c.Id} \nName: {c.Name} \nBalance: {c.Balance} \n\n");
+        }
+    }
+
 }
