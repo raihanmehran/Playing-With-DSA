@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using CSharp6;
 
 namespace Features;
 
@@ -33,6 +34,7 @@ class Program
         // WorkingWithHashtable();
         // WorkingWithGenericList();
 
+        WorkingWithGenerics();
     }
 
     static void PrintArrayList(ArrayList arrayList)
@@ -121,5 +123,17 @@ class Program
         li.RemoveAt(4);
         foreach (var i in li) System.Console.Write($"\t {i}");
         System.Console.WriteLine();
+    }
+
+    static void WorkingWithGenerics()
+    {
+        // Generics1 generics1 = new Generics1();
+        // generics1.Add<int>(a: 10, b: 20);
+        // generics1.Sub<float>(a: 20, b: 12.5f);
+
+        // We can also make the class generic, so then we don't need to mention the type in every function
+        Generics1<int> generics1 = new Generics1<int>();
+        generics1.Add(a: 10, b: 20);
+        generics1.Sub(a: 20, b: 12);
     }
 }
