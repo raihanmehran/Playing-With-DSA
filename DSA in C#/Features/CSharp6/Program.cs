@@ -1,4 +1,6 @@
-﻿namespace Features;
+﻿using System.Collections;
+
+namespace Features;
 
 class Student
 {
@@ -20,9 +22,46 @@ class Program
         List<int> numberList = new List<int>();
         List<int> numberList2 = [];
 
+        ArrayList arrayList = new ArrayList();
+        System.Console.WriteLine(arrayList.Capacity);
+
+        arrayList.Add(10);
+        arrayList.Add(10);
+        arrayList.Add(10);
+        System.Console.WriteLine(arrayList.Capacity);
 
 
 
-        Console.WriteLine("Hello, World!");
+        arrayList.Add('a');
+        arrayList.Add('b');
+        System.Console.WriteLine(arrayList.Capacity);
+
+        printArrayList(arrayList: arrayList);
+
+        arrayList.Insert(2, 30);
+
+        printArrayList(arrayList: arrayList);
+
+        arrayList.Remove('a');
+
+        printArrayList(arrayList);
+
+        arrayList.RemoveAt(3);
+
+        printArrayList(arrayList);
+
+
+        Console.WriteLine("\n Hello, World!");
+    }
+
+    static void printArrayList(ArrayList arrayList)
+    {
+        System.Console.WriteLine();
+        int index = 0;
+        foreach (object obj in arrayList)
+        {
+            System.Console.WriteLine($"{index} : {obj} ");
+            index++;
+        }
     }
 }
